@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://en.wikipedia.org/",
+  "projectId": "2x6q3w",
+  "ignoreTestFiles": "**/**/*.js",
+  "chromeWebSecurity": true,
+  "blockHosts": "*js.hs-scripts.com",
+  "testFiles": "**/*.feature"
+}

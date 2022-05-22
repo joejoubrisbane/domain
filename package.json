@@ -1,0 +1,33 @@
+{
+  "name": "infotrack",
+  "version": "1.0.0",
+  "description": "infotrack technical Test",
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "mailosaur": "^8.3.0",
+    "path": "^0.12.7"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --env configFile=uat --record --key b2ddb007-d079-4599-b0b9-38b1fa981e6a",
+    "cy:open": "cypress open --config watchForFileChanges=false --env configFile=uat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejoubrisbane/infotrack.git"
+  },
+  "author": "joe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joejoubrisbane/infotrack/issues"
+  },
+  "homepage": "https://github.com/joejoubrisbane/infotrack#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-cucumber-preprocessor": "^2.3.1"
+  }
+}
