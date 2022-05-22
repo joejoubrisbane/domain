@@ -1,4 +1,5 @@
 const Authentication = require("../pages/authentication.page.js");
+const Navigation = require("../pages/navigation.page.js");
 
 Cypress.Commands.add("login", (userName, password) => {
   Authentication.userNameInput().type(userName);
@@ -7,6 +8,6 @@ Cypress.Commands.add("login", (userName, password) => {
 });
 
 Cypress.Commands.add("logout", () => {
-  Authentication.logoutButton().click();
+  Navigation.logoutButton().click();
 });
 

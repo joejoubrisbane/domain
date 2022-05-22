@@ -19,12 +19,6 @@ module.exports = {
   loginErrorMessage: () => {
     return cy.get('form[name="userlogin"]').find(".mw-message-box");
   },
-  logoutButton: () => {
-    return cy
-      .get('nav[role="navigation"]')
-      .find("#pt-logout")
-      .click();
-  }
 };
 
 
