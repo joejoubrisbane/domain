@@ -1,9 +1,10 @@
 {
-  "name": "infotrack",
+  "name": "domain",
   "version": "1.0.0",
-  "description": "infotrack technical Test",
+  "description": "domain technical Test",
   "main": "index.js",
   "dependencies": {
+    "@cucumber/cucumber": "^8.2.1",
     "fs-extra": "^10.1.0",
     "mailosaur": "^8.3.0",
     "path": "^0.12.7"
@@ -13,19 +14,19 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "npx cypress run --env configFile=uat --record --key b2ddb007-d079-4599-b0b9-38b1fa981e6a",
+    "cy:run": "npx cypress run --env configFile=uat --record --key 258f6a30-bb97-4214-b125-f54a088da766",
     "cy:open": "cypress open --config watchForFileChanges=false --env configFile=uat"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joejoubrisbane/infotrack.git"
+    "url": "git+https://github.com/joejoubrisbane/domain.git"
   },
   "author": "joe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joejoubrisbane/infotrack/issues"
+    "url": "https://github.com/joejoubrisbane/domain/issues"
   },
-  "homepage": "https://github.com/joejoubrisbane/infotrack#readme",
+  "homepage": "https://github.com/joejoubrisbane/domain#readme",
   "devDependencies": {
     "cypress": "^9.6.1",
     "cypress-cucumber-preprocessor": "^2.3.1"

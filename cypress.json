@@ -1,6 +1,6 @@
 {
-  "baseUrl": "https://en.wikipedia.org/",
-  "projectId": "2x6q3w",
+  "baseUrl": "https://www.domain.com.au/",
+  "projectId": "55de7y",
   "ignoreTestFiles": "**/**/*.js",
   "chromeWebSecurity": true,
   "blockHosts": "*js.hs-scripts.com",
