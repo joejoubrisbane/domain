@@ -1,8 +1,0 @@
-{
-  "baseUrl": "https://www.domain.com.au/",
-  "projectId": "55de7y",
-  "ignoreTestFiles": "**/**/*.js",
-  "chromeWebSecurity": true,
-  "blockHosts": "*js.hs-scripts.com",
-  "testFiles": "**/*.feature"
-}
